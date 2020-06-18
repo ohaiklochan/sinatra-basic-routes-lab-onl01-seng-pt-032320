@@ -11,7 +11,7 @@ class App < Sinatra::Base
   end
   
   get '/favorite-song'
-    "My favorite song is 'All the Wine' by The National"
+    @favorite-song ="My favorite song is 'All the Wine' by The National"
   end
   
 end
